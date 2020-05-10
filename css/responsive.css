@@ -1,0 +1,91 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .services .content {
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+
+  .about .content-img img {
+    width: 100%;
+  }
+
+  .our-work .content-img {
+    height: 240px;
+  }
+
+  .caption {
+    padding: 94.5px 0 0;
+  }
+}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+  .services .content {
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+
+  .our-work .title-section p {
+    width: 50%;
+  }
+
+  .latest-blog .content {
+    margin-bottom: 30px;
+  }
+
+  .our-work .content-img {
+    height: 210px;
+  }
+
+  .caption {
+    padding: 79.5px 0 0;
+  }
+
+  #home-intro h2 {
+    font-size: 50px;
+  }
+
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {}
+
+@media (max-width: 458px) {
+  #home-intro h2 {
+    font-size: 34px;
+  }
+
+  #home-intro h6 {
+    font-size: 15px;
+  }
+
+  .about h3 {
+    font-size: 34px;
+  }
+
+  .services h3 {
+    font-size: 34px;
+  }
+
+  .our-work h3 {
+    font-size: 34px;
+  }
+
+  .features .title-section h3 {
+    font-size: 34px;
+  }
+
+  .features .content h4 {
+    font-size: 20px;
+  }
+
+  .latest-blog .title-section h3 {
+    font-size: 34px;
+  }
+}
